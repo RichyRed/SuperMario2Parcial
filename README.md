@@ -14,3 +14,4 @@ Llegar al final del camino al encontrar la bandera y superar a los enemigos evit
 Las instrucciones vienen dentro del juego, por lo que solo se lo debe ejecutar.
 <h2> Proximas actualizaciones </h2>
 Nuestro proyecto por falta de tiempo tiene algunos bugs, los cuales seran arreglados en las siguientes versiones.
+[EJECUTABLE](https://drive.google.com/drive/folders/1j2PanZMDUuPFQP7MV5zOpLDekvVl1iDB?usp=sharing)
