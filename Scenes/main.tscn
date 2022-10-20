@@ -1,9 +1,10 @@
-[gd_scene load_steps=40 format=2]
+[gd_scene load_steps=41 format=2]
 
 [ext_resource path="res://Scenes/main.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Mario_bdy.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/Lista_Objetos.gd" type="Script" id=3]
 [ext_resource path="res://Scenes/Ladrillo_Explode.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scripts/ParallaxBackground.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/Mario_W.tscn" type="PackedScene" id=6]
 [ext_resource path="res://assets/NES - Super Mario Bros - World 1-1.png" type="Texture" id=7]
 [ext_resource path="res://assets/lvl1.tres" type="TileSet" id=8]
@@ -98,6 +99,8 @@ mario = ExtResource( 2 )
 script = ExtResource( 3 )
 ladrillo_exp = ExtResource( 4 )
 mario_w = ExtResource( 6 )
+
+[node name="ParallaxBackground" parent="." instance=ExtResource( 5 )]
 
 [node name="spawn" type="Position2D" parent="." groups=["spawn"]]
 position = Vector2( 205, 88 )
